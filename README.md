@@ -19,7 +19,7 @@ This plugin retrieves data from log lines matching labels and columns in a time 
 <dl>
   <dt>Example of use:</dt>
   <dd>Suppose that you have to parse a log file with the following format:</dd>
-  <dd><pre>
+  <pre>
  Performance Statistics   2013-08-26 17:04:00 - 2013-08-26 17:05:00
  Tag                           Avg(ms)         Min         Max     Std Dev       Count
  label1                            0.0           0           0         0.0           2
@@ -29,5 +29,5 @@ This plugin retrieves data from log lines matching labels and columns in a time 
  label5                           12.3          10          18         2.2          15
  label6                           38.1           0         996        63.3        1765
  label7                            0.4           0          24         2.1         192
-</pre></dd>
+ </pre>
 </dl>
