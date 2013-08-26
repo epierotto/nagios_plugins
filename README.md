@@ -41,6 +41,7 @@ License and Author
 ------------------
 
 Author:: Exequiel Pierotto <exequiel.pierotto@gmail.com>
+
 Author:: Enrique Garbi <quique@enriquegarbi.com.ar>
 
 
