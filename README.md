@@ -13,7 +13,7 @@ They have mostly written in Perl/Bash
 Overview of Available Plugins
 -----------------------------
 
-* log4j\_parser.pl  
+###log4j\_parser.pl  
 This plugin retrieves data from log lines matching labels and columns in a time frame,
 also you can set thresholds for each of label.
 
