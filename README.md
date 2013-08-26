@@ -17,10 +17,9 @@ Overview of Available Plugins
 This plugin retrieves data from log lines matching labels and columns in a time frame,
 also you can set thresholds for each of label.
 
-<dl>
-  <dt>Example of use:</dt>
-  <dd>Suppose you have a log file named `log_file.log` with the following format:</dd>
-  <pre>
+####Example of use:  
+  Suppose you have a log file named `log_file.log` with the following format:
+  
     Performance Statistics   2013-08-26 17:04:00 - 2013-08-26 17:05:00
     Tag                           Avg(ms)         Min         Max     Std Dev       Count
     label1                            0.0           0           0         0.0           2
@@ -30,12 +29,13 @@ also you can set thresholds for each of label.
     label5                           12.3          10          18         2.2          15
     label6                           38.1           0         996        63.3        1765
     label7                            0.4           0          24         2.1         192
-  </pre>
-  <dd>So, if you would like to parse Avg time \(first column\) of, for example, label1 and label5:</dd>
-  <pre>
+  
+  So, if you would like to parse Avg time \(first column\) of, for example, label1 and label5:
+  
+  
     $ ./log4j_parser.pl -p 'log_file.log' -s 'label1+label5' -C 1
     LOG4J_PARSER OK - All stats retrieved | label1=0.0;; label5=12.3;;
-  </pre>
+  
 
 License and Author
 ------------------
