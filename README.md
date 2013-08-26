@@ -17,6 +17,39 @@ Overview of Available Plugins
 This plugin retrieves data from log lines matching labels and columns in a time frame,
 also you can set thresholds for each of label.
 
+####Usage and Help:  
+
+Usage: log4j_parser.pl [-p|--path <complete path to log file>] [-s|--string <labels to search for>] [-m|--minutes <ammount of minutes before the actual date to set the time frame>] [-C|--column <name of the column to retrieve the data>] [-d|--date-format <date format>] [-n|--column-names <set names for each log column>] [-w|--warning <warning threshold>] [-c|--critical <critical threshold>] [-?|--usage] [-V|--version] [-h|--help] [-t|--timeout=<timeout>]
+
+ -?, --usage
+   Print usage information
+ -h, --help
+   Print detailed help screen
+ -V, --version
+   Print version information
+ --extra-opts=[section][@file]
+   Read options from an ini file. See http://nagiosplugins.org/extra-opts for usage
+ -p, --path=STRING
+   Complete path to the log file
+ -s, --string=STRING
+   Labels or tags to search in the log file, separated with "+" from each other
+ -m, --minutes=INTEGER
+   Ammount of minutes before the actual date to set a range of time. Default 1 min
+ -C, --column=STRING
+   Name of the column to pick up the value. Default value: Count
+ -d, --date-format=STRING
+   Date format of the log file based on POSIX strftime. Default is "%Y-%m-%d %H:%M:"
+ -n, --column-names=STRING
+   You can set names for each log column, separated with "+" from each other. Default value is: 0+1+2+3+4+5
+ -c, --critical=STRING
+   Values for the Critical Thresholds separated with "+". The ammount of given criticals thresholds must match the ammount of labels to check. http://nagiosplug.sourceforge.net/developer-guidelines.html#THRESHOLDFORMAT
+ -w, --warning=STRING
+   Values for the Warning Thresholds separated with "+". The ammount of given warnings thresholds must match the ammount of labels to check. http://nagiosplug.sourceforge.net/developer-guidelines.html#THRESHOLDFORMAT
+ -t, --timeout=INTEGER
+   Seconds before plugin times out (default: 15)
+ -v, --verbose
+   Show details for command-line debugging (can repeat up to 3 times)
+
 ####Example of use:  
   Suppose you have a log file named `log_file.log` with the following format:
   
