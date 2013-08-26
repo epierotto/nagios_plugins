@@ -20,7 +20,7 @@ also you can set thresholds for each of label.
 ####Usage and Help:  
 
 <pre>
-  Usage: log4j_parser.pl <-p|--path complete path to log file> <-s|--string labels to search for> [-m|--minutes <ammount of minutes before the actual date to set the time frame>] [-C|--column <name of the column to retrieve the data>] [-d|--date-format <date format>] [-n|--column-names <set names for each log column>] [-w|--warning <warning threshold>] [-c|--critical <critical threshold>] [-?|--usage] [-V|--version] [-h|--help] [-t|--timeout=<timeout>]
+  Usage: log4j_parser.pl \<-p|--path complete path to log file\> \<-s|--string labels to search for\> [-m|--minutes <ammount of minutes before the actual date to set the time frame>] [-C|--column <name of the column to retrieve the data>] [-d|--date-format <date format>] [-n|--column-names <set names for each log column>] [-w|--warning <warning threshold>] [-c|--critical <critical threshold>] [-?|--usage] [-V|--version] [-h|--help] [-t|--timeout=<timeout>]
 
  -?, --usage
    Print usage information
