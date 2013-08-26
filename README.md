@@ -16,8 +16,10 @@ Overview of Available Plugins
 ### log4j\_parser.pl 
 This plugin retrieves data from log lines matching labels and columns in a time frame, also you can set thresholds for each of label.
 
-* Example of use:
-Suposse that you have to parse a log file with the following format:
+<dl>
+  <dt>Example of use:</dt>
+  <dd>Suppose that you have to parse a log file with the following format:</dd>
+</dt>
 
 <pre>
  Performance Statistics   2013-08-26 17:04:00 - 2013-08-26 17:05:00
