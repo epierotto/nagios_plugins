@@ -40,8 +40,7 @@ also you can set thresholds for each of label.
 License and Author
 ------------------
 
-Author:: Exequiel Pierotto <exequiel.pierotto@gmail.com>
-
+Author:: Exequiel Pierotto <exequiel.pierotto@gmail.com>  
 Author:: Enrique Garbi <quique@enriquegarbi.com.ar>
 
 
