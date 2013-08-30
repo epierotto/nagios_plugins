@@ -1,5 +1,5 @@
 #! /usr/bin/perl -w
-
+#
 use POSIX qw(strftime);
 use Nagios::Plugin;
 
